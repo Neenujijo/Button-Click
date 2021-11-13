@@ -1,0 +1,53 @@
+#screen{
+    width: 500px;
+    height: 300px;
+    
+    border: solid 2px;
+    margin-left: 650px;
+    margin-top: 25px;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 120px;
+}
+.button1{
+    width: 75px;
+    margin-top: 10px;
+    margin-left: 720px;
+    background-color: red;
+    font-size: 25px;
+    color: white;
+   
+}
+.button2{
+    width: 83px;
+    
+    background-color: green;
+    font-size: 25px;
+    color:black;
+   
+}
+
+.button3{
+    width: 80px;
+    
+    background-color: blue;
+    font-size: 25px;
+    color: white;
+   
+}
+
+.button4{
+    width: 85px;
+    
+    background-color:yellow;
+    font-size: 25px;
+    color:black;
+   
+}
+
+
+ 

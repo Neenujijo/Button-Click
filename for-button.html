@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button click</title>
+    <link type="text/css" rel="stylesheet" href="style-for-button.css" />
+</head>
+<body>
+    <p style="margin-top: 45px; font-size: xx-large; font-weight: bold; text-align: center;"> Please click any button, you can see a magic!</p><br>
+    
+    <div id="screen">
+       <p id="text"></p> 
+    </div>
+    
+    <button class="button1" onclick="color('red')">Red</button>
+    <button class="button2" onclick="color('green')">Green</button>
+    <button class="button3" onclick="color('blue')">Blue</button>
+    <button class="button4" onclick="color('yellow')">Yellow</button>
+    
+
+    <script>
+        function color(col){
+            document.getElementById("screen").style.background=col
+            document.getElementById('text').innerHTML = "'Thank you'";
+        }
+    </script>
+</body>
+</html>
